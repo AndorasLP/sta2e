@@ -1,11 +1,11 @@
 {
-	"id": "sta2e",
-	"title": "Star Trek Adventures (2nd Edition)",
-	"description": "An -UNOFFICIAL- rendition of the Modiphius TTRPG System.",
-	"version": "1.0.7",
+	"id": "sta2e_v13",
+	"title": "Star Trek Adventures (2nd Edition) V13",
+	"description": "An -UNOFFICIAL- rendition of the Modiphius TTRPG System. Updated to v13",
+	"version": "1.0.8",
 	"compatibility": {
-		"minimum": "9",
-        "verified": "12"
+		"minimum": "13",
+		"verified": "13"
 	},
 
 	"authors": [
@@ -13,42 +13,47 @@
 			"name": "ELH",
 			"discord": "elhmk1",
 			"url": "https://github.com/ELH-mk1"
+		},
+		{
+			"name": "Andoras",
+			"discord": "andorasde",
+			"url": "https://github.com/AndorasLP"
 		}
 	],
-	"esmodules": ["module/sta.js"],
+	"esmodules": [ "module/sta.js" ],
 	"socket": true,
-	"styles": ["sta.css","sta_fabulist.css"],
+	"styles": [ "sta.css", "sta_fabulist.css" ],
 
 	"languages": [
 		{
 			"lang": "en",
 			"name": "English",
 			"path": "lang/en.json",
-            "flags": {}
+			"flags": {}
 		},
 		{
 			"lang": "es",
 			"name": "Spanish",
 			"path": "lang/es.json",
-            "flags": {}
+			"flags": {}
 		},
 		{
 			"lang": "de",
 			"name": "German",
 			"path": "lang/de.json",
-            "flags": {}
+			"flags": {}
 		},
 		{
 			"lang": "fr",
 			"name": "French",
 			"path": "lang/fr.json",
-            "flags": {}
+			"flags": {}
 		},
 		{
 			"lang": "pt-BR",
 			"name": "Português (Brasil)",
 			"path": "lang/pt.json",
-            "flags": {}
+			"flags": {}
 		}
 	],
 	"grid": {
@@ -57,8 +62,8 @@
 	},
 	"primaryTokenAttribute": "stress",
 	"secondaryTokenAttribute": "determination",
-	"url": "https://github.com/ELH-mk1/sta2e",
-    "background": "systems/sta2e/assets/splash.webp",
-	"manifest": "https://raw.githubusercontent.com/ELH-mk1/sta2e/master/src/system.json",
-	"download": "https://raw.githubusercontent.com/ELH-mk1/sta2e/master/package/sta2e-1.0.7.zip"
+	"url": "https://github.com/AndorasLP/sta2e",
+	"background": "systems/sta2e/assets/splash.webp",
+	"manifest": "https://raw.githubusercontent.com/AndorasLP/sta2e/refs/heads/main/src/system.json",
+	"download": "https://github.com/AndorasLP/sta2e/raw/refs/heads/main/package/sta2e-1.0.8.zip"
 }
